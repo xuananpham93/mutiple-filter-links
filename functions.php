@@ -1,8 +1,8 @@
 <?php 
-define("DB_HOST", 'localhost');
-define("DB_NAME", 'fc_multi_links');
-define("DB_USER", 'root');
-define("DB_PASSWORD", '');
+define("DB_HOST", 'sql10.freemysqlhosting.net');
+define("DB_NAME", 'sql10153612');
+define("DB_USER", 'sql10153612');
+define("DB_PASSWORD", 'iQp5HbA16x');
 global $conn;
 
 $vars = array('artistTag', 'typeTag', 'priceTag', 'sizeTag');
