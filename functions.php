@@ -33,7 +33,7 @@ function close(){
 function get_product(){
 	global $conn;
 	connect();
-	$stmt = $conn->prepare('Select * from artData');
+	$stmt = $conn->prepare('Select * from artdata');
 
 	$stmt->execute();
 
