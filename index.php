@@ -63,15 +63,16 @@ if (!empty($_GET)) {
 
 		<!-- Du lieu ban dau -->
 		<ul>
-			<?php if (empty($_GET)): ?>
-				<?php foreach ($result as $row): ?>
+			<?php if (!empty($_GET)): ?>
+				
+				<?php foreach ($result_filter as $row): ?>
 					<li>
 						<a href=""><?php echo $row['name'] ?></a>
 					</li>
 				<?php endforeach ?>
 
 			<?php else: ?>
-				<?php foreach ($result_filter as $row): ?>
+				<?php foreach ($result as $row): ?>
 					<li>
 						<a href=""><?php echo $row['name'] ?></a>
 					</li>
